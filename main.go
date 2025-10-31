@@ -16,7 +16,7 @@ func main() {
 	//x := strings.Contains("xxxyyy", "yyy")
 	//fmt.Println(x)
 
-	return
+	//return
 	h := server.Default(server.WithHostPorts(":9000"))
 
 	h.GET("/sleep", func(c context.Context, ctx *app.RequestContext) {
